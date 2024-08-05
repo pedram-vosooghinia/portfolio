@@ -21,6 +21,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "components/MagicButton.tsx", "components/Hero.jsx", "components/Footer.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "components/MagicButton.tsx", "components/Hero.jsx", "components/Footer.tsx"],
   "exclude": ["node_modules"]
 }

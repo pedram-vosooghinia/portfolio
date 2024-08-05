@@ -83,3 +83,11 @@
     @apply font-bold text-4xl md:text-5xl text-center;
   }
 }
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
