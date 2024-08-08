@@ -5,7 +5,7 @@ import { Button } from "./ui/MovingBorders";
 import Image from "next/image";
 const Experience = () => {
   return (
-    <div className="py-20 w-full">
+    <div className="py-20 w-full" id="experience">
       <h1 className="heading">
         My <span className="text-green-500">work experience</span>
       </h1>
