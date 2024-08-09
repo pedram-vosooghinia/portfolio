@@ -5,6 +5,21 @@ export const navItems = [
   { name: "Experience", link: "#experience" },
   { name: "Contact", link: "#contact" },
 ];
+export const navItemsEn = [
+  { name: "Up", link: "#up" },
+  { name: "Projects", link: "#projects" },
+  { name: "Testimonials", link: "#testimonials" },
+  { name: "Experience", link: "#experience" },
+  { name: "Contact", link: "#contact" },
+];
+
+export const navItemsFa = [
+  { name: "بالا", link: "#up" },
+  { name: "پروژه‌ها", link: "#projects" },
+  { name: "نظرات", link: "#testimonials" },
+  { name: "تجربه", link: "#experience" },
+  { name: "تماس", link: "#contact" },
+];
 
 export const projects = [
   {
@@ -23,7 +38,6 @@ export const projects = [
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg"],
     link: "/ui.earth.com",
   },
-  
 ];
 
 export const testimonials = [
