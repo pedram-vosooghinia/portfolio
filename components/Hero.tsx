@@ -1,28 +1,18 @@
-import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 
 const Hero = () => {
   return (
-    <section className="h-screen  py-20" id="up">
-      <div>
-        <Spotlight
-          className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen"
-          fill="#purple"
-        />
-        <Spotlight
-          className="h-[80vh] w-[50vw] top-10 left-full"
-          fill="purple"
-        />
-        <Spotlight className="left-80 top-28 h-[80vh] w-[50vw]" fill="purple" />
-      </div>
-
+    <section className="h-screen py-64 md:py-40" id="up">
+  
       <div
         className="h-screen w-full  bg-yellow-400  
-       absolute top-0 left-0 flex items-center justify-center"
+       absolute top-0 left-0 flex items-center justify-center
+       dark:bg-black-100"
       >
         <div
           className="absolute pointer-events-none inset-0 flex items-center justify-center 
-         bg-black-200 [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"
+         bg-black-200 [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]
+         dark:bg-red-400"
         />
       </div>
 

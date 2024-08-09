@@ -10,7 +10,7 @@ import useLanguageStore from "@/store/LanguageStore";
 const Home = () => {
   const {language}=useLanguageStore()
   return (
-    <main className=" bg-yellow-400 flex  flex-col  ">
+    <main className=" bg-yellow-400  dark:bg-black-100 flex  flex-col  ">
         <FloatingNav  />
         <Hero />
         <RecentProjects />

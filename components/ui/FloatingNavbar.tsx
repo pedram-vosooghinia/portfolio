@@ -39,28 +39,21 @@ export const FloatingNav = ({ className }: { className?: string }) => {
 
   return (
 
-    // <div
-    //   className={cn(
-    //     " flex justify-center items-center mx-auto transition-all duration-200   w-96   fixed z-[5000] top-10 inset-x-0   px-10 py-5 rounded-lg border border-black/.1 shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] ",
-    //     visible ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-full",
-    //     className
-    //   )}
-    <div
-    className={cn(
-      " transition-all duration-200 fixed z-[5000] top-10 inset-x-0 mx-auto px-10 py-5 rounded-lg border border-black/.1 shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)]",
-      visible ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-full",
-      className,
-      "w-full sm:max-w-md"
-    )}
+   <div
+      className={cn(
+        "fixed top-10 inset-x-0  mx-auto max-w-full sm:max-w-xs transition-all duration-200 z-[5000]",
+        visible ? "translate-y-0 opacity-100" : "-translate-y-full opacity-0",
+        className
+      )}
       style={{
         backdropFilter: "blur(16px) saturate(180%)",
         backgroundColor: "rgba(17, 25, 40, 0.75)",
-        borderRadius: "12px",
+        borderRadius: "4px",
         border: "1px solid rgba(255, 255, 255, 0.125)",
       }}
     >
-      <div className= {`${language === "fa"? "rtl": ""}  flex flex-col max-w-xs`}>
-        <div className="flex justify-center items-center">
+      <div className= {`${language === "fa"? "rtl": ""}  flex flex-col max-w-80 justify-center mx-4 `}>
+        <div className="flex justify-center items-center ">
           {navItems.map((navItem: any, idx: number) => (
             <Link
               key={`link=${idx}`}
