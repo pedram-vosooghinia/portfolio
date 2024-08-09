@@ -3,7 +3,7 @@ import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 
 const Hero = () => {
   return (
-    <section className="h-screen   py-20" id="up">
+    <section className="h-screen  py-20" id="up">
       <div>
         <Spotlight
           className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen"

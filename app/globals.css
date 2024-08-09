@@ -82,6 +82,12 @@
   .heading {
     @apply font-bold text-4xl md:text-5xl text-center;
   }
+  .rtl {
+    direction: rtl;
+  }
+  .ltr {
+    direction: ltr;
+  }
 }
 @keyframes spin {
   from {

@@ -9,7 +9,7 @@ interface LanguageState {
 }
 
 const useLanguageStore = create<LanguageState>((set) => ({
-  language: 'en', // زبان پیش‌فرض
+  language: 'en', 
   switchLanguage: (lang) => set({ language: lang }),
 }));
 

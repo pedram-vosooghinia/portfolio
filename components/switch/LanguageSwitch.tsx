@@ -3,13 +3,12 @@ import useLanguageStore from "@/store/LanguageStore";
 
 const LanguageSwitch: React.FC = () => {
   const { language, switchLanguage } = useLanguageStore();
-console.log("language",language)
   const handleToggle = () => {
     switchLanguage(language === "en" ? "fa" : "en");
   };
 
   return (
-    <div className=" flex justify-center items-center gap-4">
+    <div className="ltr flex justify-center items-center gap-4">
       <div
         className=" relative w-10 h-5  bg-black rounded-full cursor-pointer"
         onClick={handleToggle}
