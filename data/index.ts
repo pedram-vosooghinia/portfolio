@@ -21,7 +21,7 @@ export const projects = [
     title: "tts -  E-commerce web app",
     des: "A program to shorten existing processes and develop business with the least personnel.",
     img: "./tts.png",
-    iconLists: ["/next.svg", "/tail.svg", "/js.svg", "/chart.js.svg"],
+    iconLists: ["./next.svg", "./tail.svg", "./js.svg", "./chart.js.svg"],
     link: "/ui.yoom.com",
   },
   {
@@ -29,7 +29,7 @@ export const projects = [
     title: "Portfolio",
     des: "Portfolio is a collection of professional work samples and personal projects, designed to showcase skills, expertise, and work experience in various fields.",
     img: "./portfolio.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg"],
+    iconLists: ["./next.svg", "./tail.svg", "./ts.svg", "./three.svg"],
     link: "/ui.earth.com",
   },
 ];
