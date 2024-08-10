@@ -24,8 +24,8 @@ const RecentProjects = () => {
                   style={{ backgroundColor: "#13162D" }}
                 >
                   <Image
-                    src={`${prefix}/bg.png`}
-                    // src="/bg.png"
+                    // src={`${prefix}/bg.png`}
+                    src="/bg.png"
                     alt="bgimg"
                     width={350}
                     height={350}
@@ -34,8 +34,8 @@ const RecentProjects = () => {
                   />
                 </div>
                 <Image
-                    src={`${prefix}${item.img}`}
-                  // src={item.img}
+                    // src={`${prefix}${item.img}`}
+                  src={item.img}
                   alt="cover"
                   className="z-10 absolute px-4"
                   width={300}
