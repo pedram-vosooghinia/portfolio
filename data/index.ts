@@ -36,18 +36,21 @@ export const projects = [
 
 export const testimonials = [
   {
+    id: 1,
     quote:
-      "Working with Pedram was a game-changer for our business. His innovative approach and ability to translate complex ideas into functional solutions exceeded our expectations. Pedram's commitment to quality and his attention to detail make him an invaluable asset. I highly recommend him for anyone looking to take their project to the next level.",
+    "Working with Pedram was a game-changer for our business. His innovative approach and ability to translate complex ideas into functional solutions exceeded our expectations. Pedram's commitment to quality and his attention to detail make him an invaluable asset. I highly recommend him for anyone looking to take their project to the next level.",
     name: "Mohsen Mohamadi",
     title: "CEO  of Romano Company",
   },
   {
+    id: 2,
     quote:
-      "Pedram consistently delivered above and beyond what was expected. His expertise in both front-end and back-end development is impressive, but what truly sets him apart is his passion for his work. He approaches every project with enthusiasm and creativity, making him an exceptional collaborator.",
+    "Pedram consistently delivered above and beyond what was expected. His expertise in both front-end and back-end development is impressive, but what truly sets him apart is his passion for his work. He approaches every project with enthusiasm and creativity, making him an exceptional collaborator.",
     name: "Parham Mokhtari",
     title: "Team Lead of Raya Dars",
   },
   {
+    id: 3,
     quote:
       "Pedram's ability to understand our needs and provide tailored solutions was incredible. His strategic thinking and problem-solving skills helped us overcome several challenges, and his dedication to delivering top-notch work was clear from day one. I would highly recommend Pedram to anyone looking for a professional who truly cares about their project's success.",
     name: "Ashkan ghasemlo",
