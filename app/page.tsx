@@ -1,6 +1,5 @@
 "use client";
-import { navItems } from "@/data";
-import Hero from "@/components/Hero";
+import Hero from "@/components/Hero"       
 import Clients from "@/components/Clients";
 import Experience from "@/components/Experience";
 import RecentProjects from "@/components/RecentProjects";

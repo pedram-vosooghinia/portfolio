@@ -1,10 +1,4 @@
-export const navItems = [
-  { name: "Up", link: "#up" },
-  { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
-  { name: "Experience", link: "#experience" },
-  { name: "Contact", link: "#contact" },
-];
+
 export const navItemsEn = [
   { name: "Up", link: "#up" },
   { name: "Projects", link: "#projects" },
