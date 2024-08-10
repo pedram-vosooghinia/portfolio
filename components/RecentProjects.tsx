@@ -3,7 +3,7 @@
 import { FaLocationArrow } from "react-icons/fa6";
 import Image from "next/image";
 import { projects } from "@/data";
-
+import { prefix } from "@/utils/prefix";
 const RecentProjects = () => {
   return (
     <div id="projects" className=" w-full">
@@ -24,7 +24,8 @@ const RecentProjects = () => {
                   style={{ backgroundColor: "#13162D" }}
                 >
                   <Image
-                    src="/bg.png"
+                    src={`${prefix}/bg.png`}
+                    // src="/bg.png"
                     alt="bgimg"
                     width={350}
                     height={350}
@@ -33,7 +34,8 @@ const RecentProjects = () => {
                   />
                 </div>
                 <Image
-                  src={item.img}
+                    src={`${prefix}${item.img}`}
+                  // src={item.img}
                   alt="cover"
                   className="z-10 absolute px-4"
                   width={300}
