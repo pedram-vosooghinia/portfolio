@@ -41,7 +41,7 @@ export const FloatingNav = ({ className }: { className?: string }) => {
 
    <div
       className={cn(
-        "fixed top-10 inset-x-0  mx-auto max-w-full sm:max-w-xs transition-all duration-200 z-[5000]",
+        "fixed top-10 inset-x-0  mx-auto  sm:max-w-xs transition-all duration-200 z-[5000]",
         visible ? "translate-y-0 opacity-100" : "-translate-y-full opacity-0",
         className
       )}
@@ -52,7 +52,7 @@ export const FloatingNav = ({ className }: { className?: string }) => {
         border: "1px solid rgba(255, 255, 255, 0.125)",
       }}
     >
-      <div className= {`${language === "fa"? "rtl": ""}  flex flex-col max-w-80 justify-center mx-4 `}>
+      <div className= {`${language === "fa"? "rtl": ""}  flex flex-col  justify-center mx-4 my-1`}>
         <div className="flex justify-center items-center ">
           {navItems.map((navItem: any, idx: number) => (
             <Link

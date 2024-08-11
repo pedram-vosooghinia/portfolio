@@ -7,6 +7,8 @@ const {
   default: flattenColorPalette,
 } = require("tailwindcss/lib/util/flattenColorPalette");
 
+const flowbite = require("flowbite-react/tailwind");
+
 const config = {
   darkMode: ["class"],
   content: [
@@ -15,6 +17,7 @@ const config = {
     "./app/**/*.{ts,tsx}",
     "./src/**/*.{ts,tsx}",
     "./data/**/*.{ts,tsx}",
+    flowbite.content(),
   ],
   prefix: "",
   theme: {
@@ -163,6 +166,8 @@ const config = {
     },
   },
   plugins: [
+    flowbite.plugin(),
+
     require("tailwindcss-animate"),
     addVariablesForColors,
     function ({ matchUtilities, theme }: any) {
